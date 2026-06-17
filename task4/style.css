@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#f4f6f9;
+}
+
+nav{
+background:#00695c;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:15px 10%;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#26a69a;
+color:white;
+}
+
+section{
+padding:40px 10%;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+flex:1;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+input,
+textarea,
+select{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+padding:10px 20px;
+background:#00695c;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#taskList li{
+background:white;
+margin:10px 0;
+padding:10px;
+display:flex;
+justify-content:space-between;
+}
+
+.product{
+background:white;
+padding:15px;
+margin:10px 0;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+.cards{
+flex-direction:column;
+}
+
+}
