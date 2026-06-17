@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<h2>Snigdha Portfolio</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section id="about" class="hero">
+
+<h1>Hello, I'm Snigdha</h1>
+
+<p>
+Web Development Intern
+</p>
+
+</section>
+
+<section id="projects">
+
+<h2>My Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Responsive portfolio project.</p>
+</div>
+
+<div class="card">
+<h3>To Do App</h3>
+<p>Task management with Local Storage.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="todo">
+
+<h2>To Do List</h2>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter Task">
+
+<button onclick="addTask()">
+Add
+</button>
+
+<ul id="taskList"></ul>
+
+</section>
+
+<section id="products">
+
+<h2>Product Listing</h2>
+
+<select id="filter">
+
+<option value="all">All</option>
+<option value="Laptop">Laptop</option>
+<option value="Phone">Phone</option>
+
+</select>
+
+<select id="sort">
+
+<option value="default">Sort</option>
+<option value="low">Low to High</option>
+<option value="high">High to Low</option>
+
+</select>
+
+<div id="productContainer"></div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Name"
+required>
+
+<input
+type="email"
+placeholder="Email"
+required>
+
+<textarea
+placeholder="Message">
+</textarea>
+
+<button>
+Send
+</button>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
